@@ -2,7 +2,7 @@
 name: CI
 on:
   schedule:
-    - cron: 10 7 * * *
+    - cron: 10 5 * * *
   push:
     branches: [ main ]
   pull_request:
@@ -25,7 +25,7 @@ jobs:
       - name: Build HTML output
         run: ./update-all.sh
         env:
-          NETLIFY_URL: ${{ secrets.NETLIFY_URL }}
+          NETLIFY_URL: ${{ secrets.NETLIFY_EURL }}
 
       # Runs a set of commands using the runners shell
       #- name: Run a multi-line script
