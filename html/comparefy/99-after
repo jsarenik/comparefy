@@ -1,0 +1,46 @@
+    // options
+    {
+	labels: ["Date", "Bitcoin price (USD)", "Eth price (USD)"],
+	height: "900",
+	legend: "always",
+	logscale: true,
+	labelsDiv: document.getElementById('status'),
+	yRangePad: 16,
+	fillGraph: false,
+	axes: {
+	    y: {
+		axisLabelFormatter: formatter,
+		valueFormatter: formatter2,
+	    },
+	},
+//	color: "green",
+    }
+  );
+gr = document.getElementById('graphdiv')
+if (screen.width > screen.height) {
+  gr.style.height = screen.height/1.2 + 'px';
+} else {
+  gr.style.height = screen.height/2 + 'px';
+}
+g.resize()
+</script>
+</div>
+<div class="container">
+
+<br>
+<p>
+This is the most <strong>comprehensive</strong> all-time Bitcoin/Ethereum
+price comparison history chart in USD you will find online. Updated daily.
+The chart is interactive:
+</p>
+
+<ul>
+    <li>Zoom: click-drag</li>
+    <li>Pan: shift-click-drag</li>
+    <li>Restore zoom level: double-click</li>
+</ul>
+
+<p>Go back to <a href="/">All-time Ethereum price chart</a>.</p>
+    </div>
+</body>
+</html>
