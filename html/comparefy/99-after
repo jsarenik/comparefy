@@ -6,7 +6,7 @@
 	logscale: true,
 	labelsDiv: document.getElementById('status'),
 	yRangePad: 16,
-	fillGraph: false,
+	fillGraph: true,
 	axes: {
 	    y: {
 		axisLabelFormatter: formatter,
@@ -28,8 +28,8 @@ g.resize()
 
 <br>
 <p>
-This is the most <strong>comprehensive</strong> all-time Ethereum
-price history chart you will find online. Updated daily.
+This is the most <strong>comprehensive</strong> all-time Bitcoin/Ethereum
+price comparison history chart in USD you will find online. Updated daily.
 The chart is interactive:
 </p>
 
