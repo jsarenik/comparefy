@@ -10,5 +10,5 @@ printf "Generating inline $VARIANT.html... "
 cat html/$VARIANT/00*
 ./mkcsv-inline-comparefy.sh
 cat html/$VARIANT/99*
-} > public/$VARIANT.html \
+} > public/index.html \
   && echo OK

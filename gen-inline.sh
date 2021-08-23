@@ -8,5 +8,5 @@ printf "Generating inline index.html... "
 cat html/00*
 cat datapoints-eth | ./mkcsv-inline.sh
 cat html/99*
-} > public/index.html \
+} > public/log.html \
   && echo OK
