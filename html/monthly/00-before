@@ -3,10 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="onion-location" content="http://yjeajli4dzdwm2lu32rkruj5safydu2utx22trkdszwulegookfvj3qd.onion/monthly.html" />
     <meta name="twitter:card" content="summary" />
-    <meta property="og:title" content="Monthly bitcoin price chart" />
-    <title>Monthly bitcoin price chart</title>
+    <meta property="og:title" content="Monthly Ether price chart" />
+    <title>Monthly Ether price chart</title>
 <link rel="stylesheet" href="assets/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" />
     <style>
 body {

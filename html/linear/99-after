@@ -1,11 +1,11 @@
     // options
     {
-	labels: ["Date", "bitcoin to USD (linear scale)"],
+	labels: ["Date", "Ether to USD (linear scale)"],
 	height: "600",
 	legend: "always",
 	logscale: false,
 	labelsDiv: document.getElementById('status'),
-	color: "green",
+	color: "blue",
 	fillGraph: true,
 	yRangePad: 16,
 	axes: {
@@ -29,10 +29,9 @@ g.resize()
 
 <br>
 <p>
-This chart uses as its source the daily data of Bitcoin price
+This chart uses as its source the daily data of Ether price
 in USD but shows it in linear scale.
-Updated daily. The chart uses linear scale becase many reports about the value
-of bitcoin use linear scale as well.
+Updated daily.
 The chart is interactive:
 </p>
 
@@ -42,7 +41,7 @@ The chart is interactive:
     <li>Restore zoom level: double-click</li>
 </ul>
 
-<p>Go back to <a href="/">All-time Bitcoin price chart</a>.</p>
+<p>Go back to <a href="/">All-time Ethereum price chart</a>.</p>
     </div>
 </body>
 </html>

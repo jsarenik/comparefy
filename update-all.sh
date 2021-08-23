@@ -7,6 +7,7 @@
 a="/$0"; a=${a%/*}; a=${a:-.}; a=${a#/}/; BINDIR=$(cd "$a" || exit; pwd)
 cd "$BINDIR" || exit
 ./update-datapoints.sh
+./update-datapoints-eth.sh
 ./gen-inline.sh
 ./gen-hafuch.sh
 ./gen-hafuch-linear.sh
@@ -15,6 +16,7 @@ cd "$BINDIR" || exit
 ./gen-variant.sh yearly-low
 cp public/yearly-low.html public/low.html
 ./gen-variant.sh monthly-low
+./gen-comparefy.sh
 ./gen-linear.sh
 
 echo "$NETLIFY_URL" | grep -q ^https && {

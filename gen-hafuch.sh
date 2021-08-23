@@ -6,7 +6,7 @@ cd "$BINDIR" || exit
 printf "Generating inline hafuch.html... "
 {
 cat html/hafuch/00*
-cat datapoints | ./hafuch.sh
+cat datapoints-eth | ./hafuch.sh
 cat html/hafuch/99*
 } > public/hafuch.html \
   && echo OK

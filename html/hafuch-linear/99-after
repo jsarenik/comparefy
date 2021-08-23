@@ -1,11 +1,11 @@
     // options
     {
-	labels: ["Date", "1k USD to bitcoin (linear scale)"],
+	labels: ["Date", "1k USD to Ether (linear scale)"],
 	height: "600",
 	legend: "always",
 	logscale: false,
 	labelsDiv: document.getElementById('status'),
-	color: "green",
+	color: "blue",
 	fillGraph: true,
 	yRangePad: 16,
 	axes: {
@@ -29,11 +29,10 @@ g.resize()
 
 <br>
 <p>
-This reverse-chart uses as its source the daily data of Bitcoin price
+This reverse-chart uses as its source the daily data of Ether price
 in USD but asks question
-<strong>How much bitcoin could one buy for 1000 (one thousand) USD?</strong>
-Updated daily. The chart uses linear scale becase many reports about the value
-of bitcoin use linear scale as well.
+<strong>How much Ether could one buy for 1000 (one thousand) USD?</strong>
+Updated daily.
 The chart is interactive:
 </p>
 
@@ -43,7 +42,7 @@ The chart is interactive:
     <li>Restore zoom level: double-click</li>
 </ul>
 
-<p>Go back to <a href="/">All-time Bitcoin price chart</a>.</p>
+<p>Go back to <a href="/">All-time Ethereum price chart</a>.</p>
     </div>
 </body>
 </html>

@@ -1,11 +1,11 @@
     // options
     {
-	labels: ["Date", "Bitcoin lowest price (USD) each year"],
+	labels: ["Date", "Ether lowest price (USD) each year"],
 	height: "600",
 	legend: "always",
 	logscale: true,
 	labelsDiv: document.getElementById('status'),
-	color: "green",
+	color: "blue",
 	fillGraph: true,
 	yRangePad: 16,
 	axes: {
@@ -29,7 +29,7 @@ g.resize()
 
 <br>
 <p>
-<strong>What was the lowest value of Bitcoin each year?</strong>
+<strong>What was the lowest value of Ether each year?</strong>
 The chart is interactive:
 </p>
 
@@ -39,7 +39,7 @@ The chart is interactive:
     <li>Restore zoom level: double-click</li>
 </ul>
 
-<p>Go back to <a href="/">All-time Bitcoin price chart</a>.</p>
+<p>Go back to <a href="/">All-time Ether price chart</a>.</p>
     </div>
 </body>
 </html>
