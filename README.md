@@ -1,10 +1,9 @@
-# [price.bublina.eu.org](https://price.bublina.eu.org)
-The most comprehensive all-time Bitcoin price history chart.
+# [cfy.anyone.eu.org](https://cfy.anyone.eu.org)
+The most comprehensive all-time Ethereum price history chart.
 
-Originally from https://bitcoin.zorinaq.com/price/
-
-Accessible via [Tor](https://torproject.org) from
-http://yjeajli4dzdwm2lu32rkruj5safydu2utx22trkdszwulegookfvj3qd.onion/
+Forked from
+[price.bublina.eu.org](https://github.com/jsarenik/price.bublina.eu.org)
+so that everyone can ask themselves some questions. Think for yourself.
 
 ## Requirements
 
@@ -14,8 +13,10 @@ http://yjeajli4dzdwm2lu32rkruj5safydu2utx22trkdszwulegookfvj3qd.onion/
 
 ## How it works
 
-The script `./update-datapoints.sh` updates `datapoints` and
-should be run before anything else in order to use current data.
+The script `./update-datapoints.sh` updates `datapoints` for
+Bitcoin (used on Compare For Yourself chart). `./update-datapoints-eth.sh`
+does the same for Ether and should be run before anything else
+in order to use the current data.
 
 
 `./gen-inline.sh` generates a static `public/index.html`
