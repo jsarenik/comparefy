@@ -1,11 +1,12 @@
 #!/bin/sh
 
+export TZ=UTC
 a="/$0"; a=${a%/*}; a=${a:-.}; a=${a#/}/; BINDIR=$(cd $a; pwd)
 cd $BINDIR
 last=$(tail -1 datapoints-eth | grep -Eo '[0-9]+\-[0-9]{2}\-[0-9]{2}')
 start=2015-08-09
 cont=$(date -d "$last + 1 day" +%Y-%m-%d)
-today=$(date +%Y-%m-%d)
+today=$(date +%Y-%m-%d -d "today - 1day")
 TMP=$(mktemp)
 
 test "$last" = "$today" && exit
