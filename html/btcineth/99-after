@@ -5,7 +5,7 @@
 	legend: "always",
 	logscale: true,
 	labelsDiv: document.getElementById('status'),
-	color: "red",
+	color: "purple",
 	fillGraph: true,
 	yRangePad: 16,
 	axes: {
