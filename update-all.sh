@@ -19,6 +19,7 @@ cp public/yearly-low.html public/low.html
 ./gen-comparefy.sh
 ./gen-linear.sh
 ./gen-ethinbtc.sh
+./gen-btcineth.sh
 
 echo "$NETLIFY_URL" | grep -q ^https && {
    curl --silent -X POST -d {} $NETLIFY_URL && echo Netlify triggered

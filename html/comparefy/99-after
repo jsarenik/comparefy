@@ -52,7 +52,7 @@ The Ether exchange rate for 2015-08-09 and later is from the
 <h2>Variants</h2>
 <p>
 <ul>
-<li><a href="ethinbtc.html">in BTC</a></li>
+<li><a href="ethinbtc.html">ETH in BTC</a> (and <a href="btcineth.html">BTC in ETH</a>)</li>
 <li><a href="log.html">log</a></li>
 <li><a href="linear.html">linear</a></li>
 <li><a href="hafuch.html">hafuch</a> (and <a href="hafuch-linear.html">hafuch-linear</a>)</li>
