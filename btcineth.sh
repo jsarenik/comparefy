@@ -1,12 +1,13 @@
 #!/bin/sh
 
 type bc >/dev/null 2>&1 && BC=bc || {
-  test -x $PWD/busybox-x86_64 || {
+  test -x $PWD/bc || {
     wget --quiet \
-      https://busybox.net/downloads/binaries/1.31.0-defconfig-multiarch-musl/busybox-x86_64
-    chmod a+x busybox-x86_64
+      https://bublina.eu.org/misc/bc
+    chmod a+x bc
   }
-  BC="$PWD/busybox-x86_64 bc"
+  echo Using my bc
+  BC="$PWD/bc"
 }
 
 ethstart=$(grep -vm1 "0.000001$" datapoints-eth | cut -d, -f1)
