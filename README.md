@@ -1,4 +1,4 @@
-# [cfy.anyone.eu.org](https://cfy.anyone.eu.org)
+# Compare For Yourself [cfy.anyone.eu.org](https://cfy.anyone.eu.org)
 The most comprehensive all-time Ethereum price history chart.
 
 Forked from
